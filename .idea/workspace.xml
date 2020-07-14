@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d02f13-08b2-4edf-b9a7-fdede371d8d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594712712683</updated>
-      <workItem from="1594712715469" duration="1963000" />
+      <workItem from="1594712715469" duration="2503000" />
     </task>
     <servers />
   </component>
@@ -76,6 +74,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594715219653">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1594715219653" />
     <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594714071903">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
