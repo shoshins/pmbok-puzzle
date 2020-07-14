@@ -98,7 +98,3 @@ var tran = new Translater({
     lang:"en",
     lang:"ru"
 });
-
-if (tran.getLang() === "default") {
-    tran.setLang('en');
-}
