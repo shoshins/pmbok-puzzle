@@ -5,23 +5,8 @@ a {
 /***
 General More Link
 ***/
-a.more {
-  color: #0da3e2;
-}
 
 /*Global classes*/
-
-.theme-btn {
-	color:#fff; 
-	background: #0da3e2 !important;
-	border: solid 1px #0da3e2;
-}
- 
-.theme-btn:hover {
-	color:#fff; 
-	background: #0095d4 !important; 
-	border: solid 1px #0095d4;
-}
 
 /********************
  GENERAL LAYOUT 
@@ -60,27 +45,10 @@ Header and header elements.
 	color: #fff !important;
 }
 }
-.header .nav li.dropdown.open>.dropdown-toggle {
-	color: #0da3e2;
-}
 
 /*Navigation Toggle Icon*/
-.header .navbar-btn {
-	background:#0da3e2 !important;
-}
-
-.header .navbar-btn:hover {
-	background:#0693cf !important;
-}
 
 /*Navigation Dropdown*/
-.header .dropdown-menu {
-	border-top: solid 2px #0da3e2;
-}
-
-.header .nav li.dropdown.open>.dropdown-toggle {
-	color: #0da3e2;
-}
 
 .header .in.collapse li.dropdown.active > a,
 .header .in.collapse li.dropdown.active:hover > a {
@@ -102,20 +70,9 @@ Content and content elements.
 ***/
 
 /*Revolution Slider*/
-.slide_subtitle {
-	background-color: #0da3e2;
-}
-
-.tp-leftarrow.default:hover,
-.tp-rightarrow.default:hover { 
-	background-color: #0da3e2 !important;	
-}
 
 
 /*Bx Slider & Testimonial Carousel*/
-.recent-work ul.bxslider li:hover a.bxslider-block {
-	background: #0da3e2;
-}
 
 .recent-work ul.bxslider li i.icon-hover-1:hover,
 .recent-work ul.bxslider li i.icon-hover-2:hover {
@@ -123,18 +80,8 @@ Content and content elements.
 }
 
 /*Blockquote Box*/
-.quote-v1 {
-	background: #7c858e;
-}
-
-a.btn-transparent:hover {
-  background: #0da3e2;
-}
 
 /*Tabs*/
-.tab-style-1 ul.nav-tabs {
-	border-bottom-color: #0da3e2; 
-}
 
 .tab-style-1 ul.nav-tabs li > a:hover {
 	background: #0da3e2;
@@ -149,15 +96,8 @@ a.btn-transparent:hover {
 }
 
 /*Testimonials*/
-.testimonials-v1 span.testimonials-name {
-	color: #0da3e2;
-}
 
 /*Steps*/
-
-.front-steps.front-step-one:after { 
-	border-left: 15px solid #35b2e7;
-}
 
 /***
 Footer
@@ -179,9 +119,6 @@ Copyright
 }
 
 /*Skils*/
-.front-skills .progress .bar {
-	background: none #0da3e2;
-}
 
 /*Team Blocks*/
 .front-team h3 a {
@@ -189,9 +126,6 @@ Copyright
 }
 
 /*Service Box v1*/
-.service-box-v1:hover {
-	background: #0da3e2;
-}
 
 /***
 Blog Page
@@ -234,48 +168,16 @@ Blog Page
 	background: #0da3e2;
 }
 
-.grid-v1 li .hover-portfolio {
-	background: #0da3e2;
-}
-
-.grid-v1 li a.hover-portfolio-lft, 
-.grid-v1 li a.hover-portfolio-rgt {
-	background: #19b7fa;
-}
-
 /* Pricing */
-.pricing-table:hover {
-  border-color: #0da3e2;
-}
-
-.pricing-table2:hover {
-  border-color: #0da3e2;
-}
 
 .pricing-table ul li i {
   color: #0da3e2;
-}
-
-.pricing-table.selected {
-  background-color: #0da3e2;
-}
-
-.pricing-table2.selected {
-  background-color: #0da3e2;
 }
 
 .pricing-table2 ul li i {
   color: #0da3e2;
 }
 
-.pricing-table2 .rate { 
-  background-color: #0da3e2;
-}
-
-.pricing:hover,
-.pricing-active {
-  border-color:#0da3e2;
-}
 .pricing:hover h4 {
   color:#0da3e2;
 }
@@ -310,9 +212,6 @@ Blog Page
 /***
 Vertical inline menu
 ***/
-.ver-inline-menu {
-	border-left: solid 2px #0DA3E2;
-}
 .ver-inline-menu li:hover a{
 	background: #0DA3E2;
 }
