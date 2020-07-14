@@ -9,9 +9,6 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 Import fonts
 ***/
 
-/*** load Segoe UI font from Google Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-
 /* General body settings */
 body {
     color: #000;
