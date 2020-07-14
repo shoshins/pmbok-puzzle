@@ -10,12 +10,8 @@ Import fonts
 ***/
 
 /*** load Segoe UI font from Google Fonts*/
-@import url(http://web.archive.org/web/20170721154712cs_/http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
-
-/* load Segoe UI font from local 
-@import url(/web/20170721154712cs_/http://inpmi.ru/assets/fonts/font.css);
-*/
 /* General body settings */
 body {
     color: #000;
@@ -895,18 +891,6 @@ Slider
     cursor: pointer;
 }
 
-.tp-leftarrow.default {
-    background: #d2d7dc url(/web/20170721154712im_/http://inpmi.ru/assets/img/sliders/revolution/arrow_left.png) no-repeat center !important;
-    width: 40px !important;
-    height: 50px !important;
-}
-
-.tp-rightarrow.default {
-    background: #d2d7dc url(/web/20170721154712im_/http://inpmi.ru/assets/img/sliders/revolution/arrow_right.png) no-repeat center !important;
-    width: 40px !important;
-    height: 50px !important;
-}
-
 /***
 Content and content elements.
 ***/
@@ -1084,86 +1068,6 @@ Content and content elements.
         margin: 5px 0 10px;
     }
 
-/*Testimonials*/
-.testimonials-v1 .carousel {
-    margin-bottom: 0;
-}
-
-.testimonials-v1 .item span.testimonials-slide {
-    padding: 15px;
-    color: #8a8a8a;
-    display: block;
-    font-size: 14px;
-    line-height: 20px;
-    font-style: italic;
-    background: #f8f8f8 url(/web/20170721154712im_/http://inpmi.ru/assets/img/corners.png) no-repeat right bottom;
-}
-
-.testimonials-v1 .carousel-info {
-    overflow: hidden;
-    padding-top: 15px;
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/arrow-testimonials.png) no-repeat 83px 0;
-}
-
-    .testimonials-v1 .carousel-info img {
-        width: 75px;
-        height: 75px;
-        padding: 3px;
-        border-radius: 150px !important;
-        border: solid 1px #f5f5f5;
-    }
-
-.testimonials-v1 .carousel-info {
-    overflow: hidden;
-}
-
-    .testimonials-v1 .carousel-info img {
-        margin-right: 15px;
-    }
-
-    .testimonials-v1 .carousel-info span {
-        display: block;
-    }
-
-.testimonials-v1 span.testimonials-name {
-    color: #0da3e2;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 23px 0 7px;
-}
-
-.testimonials-v1 span.testimonials-post {
-    color: #656565;
-    font-size: 12px;
-}
-
-.testimonials-v1 .left-btn,
-.testimonials-v1 .right-btn {
-    right: 0;
-    width: 24px;
-    height: 24px;
-    bottom: 30px;
-    position: absolute;
-    display: inline-block;
-}
-
-.testimonials-v1 .left-btn {
-    right: 25px;
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/left.png) no-repeat;
-}
-
-.testimonials-v1 .right-btn {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/right.png) no-repeat;
-}
-
-    .testimonials-v1 .right-btn:hover {
-        background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/right-hover.png) no-repeat;
-    }
-
-.testimonials-v1 .left-btn:hover {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/left-hover.png) no-repeat;
-}
-
 /*Steps*/
 .front-steps {
     padding: 15px 20px 33px;
@@ -1183,18 +1087,6 @@ Content and content elements.
 
     .front-steps.front-step-one h2 {
         color: #fefefe;
-    }
-
-    .front-steps.front-step-one {
-        background: #0da3e2 url(/web/20170721154712im_/http://inpmi.ru/assets/img/steps/one.png) no-repeat right bottom;
-    }
-
-    .front-steps.front-step-two {
-        background: #7c858e url(/web/20170721154712im_/http://inpmi.ru/assets/img/steps/two.png) no-repeat right bottom;
-    }
-
-    .front-steps.front-step-three {
-        background: #68727c url(/web/20170721154712im_/http://inpmi.ru/assets/img/steps/three.png) no-repeat right bottom;
     }
 
     .front-steps.front-step-one,
@@ -1846,122 +1738,6 @@ Social Icons
         opacity: 1;
     }
 
-.social-icons .social_amazon {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/amazon.png) no-repeat;
-}
-
-.social-icons .social_behance {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/behance.png) no-repeat;
-}
-
-.social-icons .social_blogger {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/blogger.png) no-repeat;
-}
-
-.social-icons .social_deviantart {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/deviantart.png) no-repeat;
-}
-
-.social-icons .social_dribbble {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/dribbble.png) no-repeat;
-}
-
-.social-icons .social_dropbox {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/dropbox.png) no-repeat;
-}
-
-.social-icons .social_evernote {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/evernote.png) no-repeat;
-}
-
-.social-icons .social_facebook {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/facebook.png) no-repeat;
-}
-
-.social-icons .social_forrst {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/forrst.png) no-repeat;
-}
-
-.social-icons .social_github {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/github.png) no-repeat;
-}
-
-.social-icons .social_googleplus {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/googleplus.png) no-repeat;
-}
-
-.social-icons .social_jolicloud {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/jolicloud.png) no-repeat;
-}
-
-.social-icons .social_last-fm {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/last-fm.png) no-repeat;
-}
-
-.social-icons .social_linkedin {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/linkedin.png) no-repeat;
-}
-
-.social-icons .social_picasa {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/picasa.png) no-repeat;
-}
-
-.social-icons .social_pintrest {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/pintrest.png) no-repeat;
-}
-
-.social-icons .social_rss {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/rss.png) no-repeat;
-}
-
-.social-icons .social_skype {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/skype.png) no-repeat;
-}
-
-.social-icons .social_spotify {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/spotify.png) no-repeat;
-}
-
-.social-icons .social_stumbleupon {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/stumbleupon.png) no-repeat;
-}
-
-.social-icons .social_tumblr {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/tumblr.png) no-repeat;
-}
-
-.social-icons .social_twitter {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/twitter.png) no-repeat;
-}
-
-.social-icons .social_vimeo {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/vimeo.png) no-repeat;
-}
-
-.social-icons .social_wordpress {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/wordpress.png) no-repeat;
-}
-
-.social-icons .social_xing {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/xing.png) no-repeat;
-}
-
-.social-icons .social_yahoo {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/yahoo.png) no-repeat;
-}
-
-.social-icons .social_youtube {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/youtube.png) no-repeat;
-}
-
-.social-icons .social_vk {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/vk.png) no-repeat;
-}
-
-.social-icons .social_instagram {
-    background: url(/web/20170721154712im_/http://inpmi.ru/assets/img/icons/social/instagram.png) no-repeat;
-}
-
 /*Fixing dropdown issue on mobile devices in Bootstrap 3.2.2*/
 .dropdown-backdrop {
     position: static;
@@ -1985,18 +1761,9 @@ Styler Panel
         position: absolute;
     }
 
-    .color-panel .icon-color {
-        background: #c9c9c9 url(/web/20170721154712im_/http://inpmi.ru/assets/img/icon-color.png) center no-repeat !important;
-    }
-
         .color-panel .icon-color:hover {
             background-color: #3d3d3d !important;
         }
-
-    .color-panel .icon-color-close {
-        display: none;
-        background: #3d3d3d url(/web/20170721154712im_/http://inpmi.ru/assets/img/icon-color-close.png) center no-repeat !important;
-    }
 
         .color-panel .icon-color-close:hover {
             background-color: #222 !important;

@@ -45,19 +45,6 @@
 	display:none;
 }
 
-/* LOADER */
-
-.bx-wrapper .bx-loading {
-	min-height: 50px;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/bx_loader.gif) center center no-repeat #fff;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2000;
-}
-
 /* PAGER */
 
 .bx-wrapper .bx-pager {
@@ -94,25 +81,6 @@
 	background: #000;
 }
 
-/* DIRECTION CONTROLS (NEXT / PREV) */
-
-.bx-wrapper .bx-prev {
-	left: -74px;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/left.png) no-repeat;
-}
-.bx-wrapper .bx-next {
-	left: -50px;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/right.png) no-repeat;
-}
-
-.bx-wrapper .bx-prev:hover {
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/left-hover.png) no-repeat;
-}
-
-.bx-wrapper .bx-next:hover {
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/right-hover.png) no-repeat;
-}
-
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 4px;
@@ -124,14 +92,6 @@
 	border-radius: 50px;
 }
 /*
-.bx-wrapper .bx-prev {
-	left: 10px;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/controls.png) no-repeat 0 -32px;
-}
-.bx-wrapper .bx-next {
-	right: 10px;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/controls.png) no-repeat -43px -32px;
-}
 .bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
@@ -162,29 +122,9 @@
 	text-align: center;
 }
 
-.bx-wrapper .bx-controls-auto .bx-start {
-	display: block;
-	text-indent: -9999px;
-	width: 10px;
-	height: 11px;
-	outline: 0;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/controls.png) -86px -11px no-repeat;
-	margin: 0 3px;
-}
-
 .bx-wrapper .bx-controls-auto .bx-start:hover,
 .bx-wrapper .bx-controls-auto .bx-start.active {
 	background-position: -86px 0;
-}
-
-.bx-wrapper .bx-controls-auto .bx-stop {
-	display: block;
-	text-indent: -9999px;
-	width: 9px;
-	height: 11px;
-	outline: 0;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/plugins/bxslider/images/controls.png) -86px -44px no-repeat;
-	margin: 0 3px;
 }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -261,19 +201,6 @@
     -o-transition: all 0.9s ease;
     -moz-transition: all 0.9s ease;
     -webkit-transition: all 0.9s ease;		
-}
-
-/*Hover Effects*/
-.recent-work ul.bxslider li i.icon-hover-1,
-.recent-work ul.bxslider li i.icon-hover-2 {
-	top: 50%;	
-	color: #fff;
-	padding: 16px 30px 16px 18px;
-	font-size: 16px;
-	position: absolute;
-	margin-top: -1.5em;
-	border-radius: 50%;
-	background: url(/web/20170721155623im_/http://inpmi.ru/assets/img/black-opacity.png) repeat !important;
 }
 
 .recent-work ul.bxslider li i.icon-hover-1:hover,

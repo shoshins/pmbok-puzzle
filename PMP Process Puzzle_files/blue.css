@@ -122,20 +122,6 @@ Content and content elements.
 	color: #0da3e2;
 }
 
-.bx-wrapper .bx-prev:hover,
-.testimonials-v1 .left-btn:hover  {
-	background: url(/web/20170722155844im_/http://inpmi.ru/assets/img/sliders/bxslider/left-blue-hover.png) no-repeat;
-}
-
-.bx-wrapper .bx-next:hover, 
-.testimonials-v1 .right-btn:hover  {
-	background: url(/web/20170722155844im_/http://inpmi.ru/assets/img/sliders/bxslider/right-blue-hover.png) no-repeat;
-}
-
-.testimonials-v1 .item span.testimonials-slide {
-	background: #f8f8f8 url(/web/20170722155844im_/http://inpmi.ru/assets/img/sliders/carousel/corners-blue.png) no-repeat right bottom;
-}	
-
 /*Blockquote Box*/
 .quote-v1 {
 	background: #7c858e;
@@ -168,9 +154,6 @@ a.btn-transparent:hover {
 }
 
 /*Steps*/
-.front-steps.front-step-one {
-	background: #0da3e2 url(/web/20170722155844im_/http://inpmi.ru/assets/img/steps/one.png) no-repeat right bottom;
-}
 
 .front-steps.front-step-one:after { 
 	border-left: 15px solid #35b2e7;

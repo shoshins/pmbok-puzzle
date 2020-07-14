@@ -75,10 +75,6 @@
 	max-height: 100%;
 }
 
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('/web/20170721162315im_/http://inpmi.ru/assets/plugins/fancybox/source/fancybox_sprite.png');
-}
-
 #fancybox-loading {
 	position: fixed;
 	top: 50%;
@@ -91,12 +87,6 @@
 	z-index: 8060;
 }
 
-#fancybox-loading div {
-	width: 44px;
-	height: 44px;
-	background: url('/web/20170721162315im_/http://inpmi.ru/assets/plugins/fancybox/source/fancybox_loading.gif') center center no-repeat;
-}
-
 .fancybox-close {
 	position: absolute;
 	top: -18px;
@@ -104,18 +94,6 @@
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
-	z-index: 8040;
-}
-
-.fancybox-nav {
-	position: absolute;
-	top: 0;
-	width: 40%;
-	height: 100%;
-	cursor: pointer;
-	text-decoration: none;
-	background: transparent url('/web/20170721162315im_/http://inpmi.ru/assets/plugins/fancybox/source/blank.gif'); /* helps IE */
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
 
@@ -166,16 +144,6 @@
 
 .fancybox-lock {
 	overflow: hidden;
-}
-
-.fancybox-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	display: none;
-	z-index: 8010;
-	background: url('/web/20170721162315im_/http://inpmi.ru/assets/plugins/fancybox/source/fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
