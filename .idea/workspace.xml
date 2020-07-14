@@ -23,11 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d02f13-08b2-4edf-b9a7-fdede371d8d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jquery.bxslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/prices.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rs-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/back-to-top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.form.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.trigl.modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/more-facets.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/playback.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webcomponents-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/wombat.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594712712683</updated>
-      <workItem from="1594712715469" duration="1140000" />
+      <workItem from="1594712715469" duration="1557000" />
     </task>
     <servers />
   </component>
@@ -79,14 +88,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594713721070">
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594714071903">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1594713721070" />
-    <state x="718" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594713124102">
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1594714071903" />
+    <state x="718" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594713912725">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="718" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1152@0.0.1920.1152" timestamp="1594712815372" />
-    <state x="718" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1200@0.0.1920.1200" timestamp="1594713124102" />
+    <state x="718" y="472" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1200@0.0.1920.1200" timestamp="1594713912725" />
   </component>
 </project>
