@@ -31,7 +31,7 @@ var App = function () {
         if (isIE10) {
             jQuery('html').addClass('ie10'); // detect IE10 version
         }
-    }
+    };
 
     function handleIEFixes() {
         //fix html5 placeholder attribute for ie7 & ie8
@@ -66,7 +66,7 @@ var App = function () {
         }
         else {
             $(".header").removeClass("scrolling-fixed").addClass("no-scrolling-fixed");
-        };
+        }
     });
 
     function handleBootstrap() {
@@ -136,7 +136,7 @@ var App = function () {
                 type: 'iframe'
             });
         }
-    }
+    };
 	
     var handleFixedHeader = function() {
 
@@ -188,7 +188,7 @@ var App = function () {
             return window.pageYOffset || docElem.scrollTop;
         }
 
-    }
+    };
 
     var handleTheme = function () {
 	
@@ -200,7 +200,7 @@ var App = function () {
             $('#logoimg').attr("src", "assets/img/logo_" + color + ".png");
             $('#rev-hint1').attr("src", "assets/img/sliders/revolution/hint1-" + color + ".png");
             $('#rev-hint2').attr("src", "assets/img/sliders/revolution/hint2-" + color + ".png");
-        }
+        };
 
         $('.icon-color', panel).click(function () {
             $('.color-mode').show();
@@ -234,7 +234,7 @@ var App = function () {
 			}
 		});
 		
-    }
+    };
     
     // Handles Bootstrap Accordions.
     var handleAccordions = function () {
@@ -249,7 +249,7 @@ var App = function () {
                 scrollTop: lastClicked.offset().top - 150
             }, 'slow');
         });
-    }
+    };
 
     // Handles Bootstrap Tabs.
     var handleTabs = function () {
@@ -263,7 +263,7 @@ var App = function () {
             var tabid = location.hash.substr(1);
             $('a[href="#' + tabid + '"]').click();
         }
-    }
+    };
 	
     return {
         init: function () {
