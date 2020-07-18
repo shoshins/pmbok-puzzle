@@ -6,7 +6,7 @@
 
 PMBOK Process Game (v.6): https://shoshins.github.io/pmbok-puzzle/
 
-Rita's Process Game (v.9) (Unoficial with translations): https://shoshins.github.io/pmpritagame.github.io/
+Rita's Process Game (v.9) (Unoficial with translations): https://shoshins.github.io/rita-puzzle/
 
 Rita's Process Game (v.9) (Official English only): https://rmcls.com/process-chart-game-v9
 
