@@ -20,6 +20,14 @@ body {
     overflow-x: hidden;
 }
 
+div.select-language{
+    display: block;
+    height: 80px;
+    direction: ltr;
+    text-align: center;
+    padding-top: 5px;
+}
+
 /*********************
  GENERAL UI COLORS 
 *********************/
