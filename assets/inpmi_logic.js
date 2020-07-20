@@ -98,3 +98,4 @@ var tran = new Translater({
     lang:"en",
     lang:"ru"
 });
+tran.setLang('default');
