@@ -2,13 +2,8 @@ var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_womba
 if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
 {
   let window = _____WB$wombat$assign$function_____("window");
-  let self = _____WB$wombat$assign$function_____("self");
   let document = _____WB$wombat$assign$function_____("document");
   let location = _____WB$wombat$assign$function_____("location");
-  let top = _____WB$wombat$assign$function_____("top");
-  let parent = _____WB$wombat$assign$function_____("parent");
-  let frames = _____WB$wombat$assign$function_____("frames");
-  let opener = _____WB$wombat$assign$function_____("opener");
 
 var App = function () {
 
@@ -389,24 +384,3 @@ $(function() {
 
 
 }
-/*
-     FILE ARCHIVED ON 02:46:40 Jul 22, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:49:39 Jun 29, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.01
-  PetaboxLoader3.resolve: 20.398
-  CDXLines.iter: 12.386 (3)
-  RedisCDXSource: 0.537
-  LoadShardBlock: 105.848 (3)
-  exclusion.robots: 0.126
-  exclusion.robots.policy: 0.118
-  PetaboxLoader3.datanode: 112.941 (4)
-  captures_list: 121.251
-  load_resource: 113.721
-*/

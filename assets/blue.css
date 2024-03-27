@@ -1,244 +1,74 @@
-/* general links color */
 a {
-	color: #0DA3E2;
-}
-/***
-General More Link
-***/
-
-/*Global classes*/
-
-/********************
- GENERAL LAYOUT 
-*********************/
-
-/***
-Header and header elements.
-***/
-/*Navigation*/
-.header a.brand b {
-	color: #0da3e2;
-}
-
-.header .navbar-nav > li > a:hover,
-.header .navbar-nav li.active > a,
-.header .navbar-nav li.active:hover > a {
-	color: #0da3e2 !important;
-	border-top: solid 2px #0da3e2 !important;
-}
-
-.header .in.collapse li a:hover {
-	background: #0da3e2;
-}
-
-.header .in.collapse li.active > a,
-.header .in.collapse li.active:hover > a {
-	background: #0da3e2;
-}
-
-.header .nav li.active > a:after { 
-	border-top: 3px solid #0da3e2;
-}
-@media (max-width: 767px) {
-.header.navbar-default .navbar-nav > li > a:hover, .header.navbar-default .navbar-nav > .active > a, .header.navbar-default .navbar-nav > .active > a:hover, .header.navbar-default .navbar-nav > .active > a:focus {
-	background: #0da3e2 !important;
-	color: #fff !important;
-}
-}
-
-/*Navigation Toggle Icon*/
-
-/*Navigation Dropdown*/
-
-.header .in.collapse li.dropdown.active > a,
-.header .in.collapse li.dropdown.active:hover > a {
-	background: #0da3e2;
-}
-
-.header .nav > li.dropdown.open.active > a:hover,
-.header .nav > li.dropdown.open.active > a:focus {
-  border-color: #0da3e2;
-}
-
-/*Menu Search*/
-.header .nav li.menu-search i:hover {
-	color: #0da3e2;
-}
- 
-/***
-Content and content elements.
-***/
-
-/*Revolution Slider*/
-
-
-/*Bx Slider & Testimonial Carousel*/
-
-.recent-work ul.bxslider li i.icon-hover-1:hover,
-.recent-work ul.bxslider li i.icon-hover-2:hover {
-	color: #0da3e2;
-}
-
-/*Blockquote Box*/
-
-/*Tabs*/
-
-.tab-style-1 ul.nav-tabs li > a:hover {
-	background: #0da3e2;
-	border-color: #0da3e2;
-}
-
-.tab-style-1 ul.nav-tabs .active > a,
-.tab-style-1 ul.nav-tabs .active > a:hover,
-.tab-style-1 ul.nav-tabs .active > a:focus {
-	background: #0da3e2;
-	border-color: #0da3e2;
-}
-
-/*Testimonials*/
-
-/*Steps*/
-
-/***
-Footer
-***/
-.footer a {
-	color: #15b1f3;
-}
-
-/***
-Copyright
-***/
-.copyright p a {
-	color: #119cd6;
-}
-
-/*Breadcrumbs*/
-.breadcrumbs li a {
-	color: #0da3e2;
-}
-
-/*Skils*/
-
-/*Team Blocks*/
-.front-team h3 a {
-	color: #0da3e2;
-}
-
-/*Service Box v1*/
-
-/***
-Blog Page
-***/
-/*Blog Posts*/
-.blog-info li i {
-	color: #0da3e2;
-}
-
-/*Blog Sidebar*/
-.blog-photo-stream li img:hover {
-	border-color: #0da3e2;
-}
-
-.blog-tags li a:hover {
-	background: #0da3e2;
-}
-
-.blog-tags li i {
-	color: #0da3e2;
-}
-
-.blog-tags li a:hover:after { 
-	border-left-color: #0da3e2;
-}
-
-/* Blog Item */
-.blog-item blockquote {
-	border-color: #0da3e2;
-}
-
-.blog-item h4.media-heading span a {
-    color: #0da3e2;
-}
-
-/* Portfolio */
-.filter-v1 .filter-category li:hover,
-.filter-v1 .filter-category li.active {
-	color: #fff;
-	background: #0da3e2;
-}
-
-/* Pricing */
-
-.pricing-table ul li i {
-  color: #0da3e2;
-}
-
-.pricing-table2 ul li i {
-  color: #0da3e2;
-}
-
-.pricing:hover h4 {
-  color:#0da3e2;
-}
-
-.pricing-head h3 {
-  background:#0da3e2;
-  border-bottom:solid 1px #0da3e2;
-}
-
-.pricing-head-active h4 {
-  color:#0da3e2;
-}
-
-.pricing-content li i {
-  color:#0da3e2;
-}
-
-.price-active h4 {
-  color:#0da3e2;
-}
-
-.no-space-pricing .price-active .pricing-head h4,
-.no-space-pricing .pricing:hover .pricing-head h4 {
-  color:#0da3e2;
-}
-
-/* error colors */
-.page-404 .number, .page-500 .number {
-	color:#0da3e2;
-}
-
-/***
-Vertical inline menu
-***/
-.ver-inline-menu li:hover a{
-	background: #0DA3E2;
-}
-.ver-inline-menu li.active a{
-  background: #0DA3E2;
-}
-.ver-inline-menu li.active:after {
-  border-left: 6px solid #0DA3E2;
-}
-/*
-     FILE ARCHIVED ON 15:58:44 Jul 22, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:49:38 Jun 29, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.223
-  esindex: 0.013
-  exclusion.robots: 0.237
-  RedisCDXSource: 1.354
-  CDXLines.iter: 10.682 (3)
-  LoadShardBlock: 34.91 (3)
-  PetaboxLoader3.datanode: 46.496 (4)
-  captures_list: 50.153
-  PetaboxLoader3.resolve: 161.128
-  load_resource: 233.2
-*/
+	color:#0DA3E2
+	}
+	
+	.header a.brand b {
+	color:#0da3e2
+	}
+	
+	.header .navbar-nav > li > a:hover,.header .navbar-nav li.active > a,.header .navbar-nav li.active:hover > a {
+	color:#0da3e2!important;
+	border-top:solid 2px #0da3e2!important
+	}
+	
+	.header .nav li.active > a:after {
+	border-top:3px solid #0da3e2
+	}
+	
+	.header .in.collapse li a:hover,.header .in.collapse li.active > a,.header .in.collapse li.active:hover > a {
+	background:#0da3e2
+	}
+	
+	@media (max-width: 767px) {
+	.header.navbar-default .navbar-nav > li > a:hover,.header.navbar-default .navbar-nav > .active > a,.header.navbar-default .navbar-nav > .active > a:hover,.header.navbar-default .navbar-nav > .active > a:focus {
+	background:#0da3e2!important;
+	color:#fff!important
+	}
+	}
+	
+	.footer a {
+	color:#15b1f3
+	}
+	
+	.copyright p a {
+	color:#119cd6
+	}
+	
+	.blog-tags li a:hover:after {
+	border-left-color:#0da3e2
+	}
+	
+	.filter-v1 .filter-category li:hover,.filter-v1 .filter-category li.active {
+	color:#fff;
+	background:#0da3e2
+	}
+	
+	.pricing-head h3 {
+	background:#0da3e2;
+	border-bottom:solid 1px #0da3e2
+	}
+	
+	.ver-inline-menu li.active:after {
+	border-left:6px solid #0DA3E2
+	}
+	
+	.header .in.collapse li.dropdown.active > a,.header .in.collapse li.dropdown.active:hover > a,.blog-tags li a:hover {
+	background:#0da3e2
+	}
+	
+	.header .nav > li.dropdown.open.active > a:hover,.header .nav > li.dropdown.open.active > a:focus,.blog-photo-stream li img:hover,.blog-item blockquote {
+	border-color:#0da3e2
+	}
+	
+	.header .nav li.menu-search i:hover,.recent-work ul.bxslider li i.icon-hover-1:hover,.recent-work ul.bxslider li i.icon-hover-2:hover,.breadcrumbs li a,.front-team h3 a,.blog-info li i,.blog-tags li i,.blog-item h4.media-heading span a,.pricing-table ul li i,.pricing-table2 ul li i,.pricing:hover h4,.pricing-head-active h4,.pricing-content li i,.price-active h4,.no-space-pricing .price-active .pricing-head h4,.no-space-pricing .pricing:hover .pricing-head h4,.page-404 .number,.page-500 .number {
+	color:#0da3e2
+	}
+	
+	.tab-style-1 ul.nav-tabs li > a:hover,.tab-style-1 ul.nav-tabs .active > a,.tab-style-1 ul.nav-tabs .active > a:hover,.tab-style-1 ul.nav-tabs .active > a:focus {
+	background:#0da3e2;
+	border-color:#0da3e2
+	}
+	
+	.ver-inline-menu li:hover a,.ver-inline-menu li.active a {
+	background:#0DA3E2
+	}
