@@ -1,17 +1,24 @@
-
-html,
-body {
-    margin: 0;
-    padding: 0;
+html,body {
+    color:#000;
+    font-size:13px;
+    direction:ltr;
+    margin:0!important;
+    padding:0!important;
+    font-family:'Segoe UI',serif!important;
+    overflow-x:hidden;
     height: 100%;
 }
-
+    
 #processes_container {
     min-height: 100%;
     position: relative;
     background: White;
     margin-bottom: -266px !important;
 }
+
+.margin-bottom-40 {
+    margin-bottom:40px!important
+    }
 
 #processes_body {
 
@@ -137,3 +144,43 @@ ol.processesDragList li {
 .ProcessIncorrectPosition:focus {
     background-color: #ec971f;
 }
+
+
+.processesDataTable th,.processesDataTable td {
+    padding:5px;
+    border:1px solid #999
+}
+
+.processesDataTable th {
+    background:#0DA3E2;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:12px;
+    text-align:center
+}
+
+.processesDataTable th label {
+    color:#fff;
+    text-transform:uppercase;
+    font-size:12px;
+    text-align:center
+}
+
+div.select-language {
+    display:block;
+    height:80px;
+    direction:ltr;
+    text-align:center;
+    padding-top:5px
+    }
+
+
+    [class^="icon-"],[class*=" icon-"],[class^="icon-"]:hover,[class*=" icon-"]:hover {
+        background:none!important
+    }
+    
+    li [class^="icon-"],li [class*=" icon-"] {
+        display:inline-block;
+        width:1.25em;
+        text-align:center
+    }
