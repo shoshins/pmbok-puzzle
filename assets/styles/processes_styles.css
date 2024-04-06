@@ -6,19 +6,19 @@ body {
     height: 100%;
 }
 
-#inpmi_container {
+#processes_container {
     min-height: 100%;
     position: relative;
     background: White;
     margin-bottom: -266px !important;
 }
 
-#inpmi_body {
+#processes_body {
 
     padding-bottom: 266px;
 }
 
-#inpmi_footer {
+#processes_footer {
     position: absolute;
 
     bottom: 0;
@@ -47,7 +47,7 @@ body {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
-.InpmiProcessGroupsTable {
+.processesProcessGroupsTable {
   border-collapse: collapse;
   font-size: 13px;
   direction: ltr;
@@ -56,11 +56,11 @@ body {
     font-family: 'Open Sans', serif !important;
 }
 
-.InpmiProcessGroupsTable td, .InpmiProcessGroupsTable th {
+.processesProcessGroupsTable td, .processesProcessGroupsTable th {
     border: 1px solid #ddd;
 }
 
-.InpmiProcessGroupsTable th {
+.processesProcessGroupsTable th {
     font-weight: normal;
     background: #0da3e2;
     padding: 5px;
@@ -70,11 +70,11 @@ body {
     text-transform: uppercase;
 }
 
-ul.InpmiDragList {
+ul.processesDragList {
     list-style: none;
 }
 
-ul.InpmiDragList li {
+ul.processesDragList li {
     margin: 2px;
     padding: 2px;
     float: left;
@@ -82,24 +82,24 @@ ul.InpmiDragList li {
     background-color: #5bc0de;
 }
 
-ul.InpmiDragList li:hover {
+ul.processesDragList li:hover {
     background-color: #31b0d5;
 }
 
-.InpmiCellDropItem
+.processesCellDropItem
 {
     width: 100%;
     height: 100%;
 }
 
-ol.InpmiDragList {
+ol.processesDragList {
     min-height: 50px;
     margin: 0 0 0 -1px !important;
     padding: 2px;
     list-style-position: inside;
 }
 
-ol.InpmiDragList li {
+ol.processesDragList li {
     padding: 2px;
     width: 100%;
     margin: 0;

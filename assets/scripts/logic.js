@@ -1,14 +1,8 @@
-jQuery(document).ready(function () {
-    App.init();
-    App.initBxSlider();
-});
 $(function () {
-
-
-    $("ul.InpmiDragList").shuffle();
-    $("ul.InpmiDragList li").draggable({revert: true});
-    $(".InpmiCellDropItem, .InpmiDragList").droppable({
-        hoverClass: "InpmiCellDropItemHover",
+    $("ul.processesDragList").shuffle();
+    $("ul.processesDragList li").draggable({revert: true});
+    $(".processesCellDropItem, .processesDragList").droppable({
+        hoverClass: "processesCellDropItemHover",
         drop: function (event, ui) {
             $(ui.draggable).appendTo(this);
             $(ui.draggable).css("left", "").css("top", "");
@@ -21,15 +15,17 @@ $(function () {
 
 function resetGroups() {
 
-    $('ol.InpmiCellDropItem li').removeClass('ProcessCorrectPosition ProcessIncorrectPosition ProcessIncorrectGroup').appendTo("ul.InpmiDragList");
+    $('ol.processesCellDropItem li')
+        .removeClass('ProcessCorrectPosition ProcessIncorrectPosition ProcessIncorrectGroup')
+        .appendTo("ul.processesDragList");
     return false;
 }
 
 function showCorrect() {
     resetGroups();
-    $('ul.InpmiDragList li').each(function (a, s) {
+    $('ul.processesDragList li').each(function (a, s) {
 
-        var list = $("ol.InpmiCellDropItem[r='" + $(this).attr("r") + "'][c='" + $(this).attr("c") + "']");
+        var list = $("ol.processesCellDropItem[r='" + $(this).attr("r") + "'][c='" + $(this).attr("c") + "']");
         $(this).appendTo(list);
         list.find("li").sort(sortgroups).appendTo(list);
 
@@ -41,9 +37,9 @@ function showCorrect() {
 
 
 function checkCorrection() {
-    $('ol.InpmiCellDropItem li').removeClass('ProcessCorrectPosition ProcessIncorrectPosition ProcessIncorrectGroup');
+    $('ol.processesCellDropItem li').removeClass('ProcessCorrectPosition ProcessIncorrectPosition ProcessIncorrectGroup');
 
-    $('ol.InpmiCellDropItem li').each(function (a, s) {
+    $('ol.processesCellDropItem li').each(function (a, s) {
         var obj = $(this);
         var td = $(this).parent();
         var g_c = td.attr('c');
