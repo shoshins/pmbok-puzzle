@@ -12,5 +12,4 @@ Rita's Process Game (v.9) (Official English only): https://rmcls.com/process-cha
 
 ### Notes
 
-This Puzzle has been gotten from the http://inpmi.ru and adjusted to the PMBOK 6th edition. 
-The INPMI site has been closed for some reason but was very helpful in preparing for the PMP® Exam. 
+The PMBOK guide is a fundamental resource for PMP® aspirants, and this game provides an innovative and engaging approach to reinforce understanding of its processes.
