@@ -1,18 +1,3 @@
-$(function () {
-    $("ul.processesDragList").shuffle();
-    $("ul.processesDragList li").draggable({revert: true});
-    $(".processesCellDropItem, .processesDragList").droppable({
-        hoverClass: "processesCellDropItemHover",
-        drop: function (event, ui) {
-            $(ui.draggable).appendTo(this);
-            $(ui.draggable).css("left", "").css("top", "");
-
-            checkCorrection();
-
-        }
-    });
-});
-
 function resetGroups() {
 
     $('ol.processesCellDropItem li')
@@ -34,7 +19,6 @@ function showCorrect() {
 
     return false;
 }
-
 
 function checkCorrection() {
     $('ol.processesCellDropItem li').removeClass('ProcessCorrectPosition ProcessIncorrectPosition ProcessIncorrectGroup');
@@ -64,12 +48,25 @@ function checkCorrection() {
     });
 }
 
-
 function sortgroups(a, b) {
     return $(a).attr("p") > $(b).attr("p") ? 1 : -1;
 }
 
 (function ($) {
+
+    $("ul.processesDragList").shuffle();
+    $("ul.processesDragList li").draggable({revert: true});
+    $(".processesCellDropItem, .processesDragList").droppable({
+        hoverClass: "processesCellDropItemHover",
+        drop: function (event, ui) {
+            $(ui.draggable).appendTo(this);
+            $(ui.draggable).css("left", "").css("top", "");
+
+            checkCorrection();
+
+        }
+    });
+
     $.fn.shuffle = function () {
         return this.each(function () {
             var items = $(this).children();
