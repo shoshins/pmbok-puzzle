@@ -91,6 +91,7 @@ function sortgroups(a, b) {
 
 var tran = new Translater({
     lang:"en",
-    lang:"ru"
+    lang:"ru",
+    lang:"ge"
 });
 tran.setLang('default');
