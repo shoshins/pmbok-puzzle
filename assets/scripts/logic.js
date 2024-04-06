@@ -52,21 +52,7 @@ function sortgroups(a, b) {
     return $(a).attr("p") > $(b).attr("p") ? 1 : -1;
 }
 
-(function ($) {
-
-    $("ul.processesDragList").shuffle();
-    $("ul.processesDragList li").draggable({revert: true});
-    $(".processesCellDropItem, .processesDragList").droppable({
-        hoverClass: "processesCellDropItemHover",
-        drop: function (event, ui) {
-            $(ui.draggable).appendTo(this);
-            $(ui.draggable).css("left", "").css("top", "");
-
-            checkCorrection();
-
-        }
-    });
-
+$(function () {
     $.fn.shuffle = function () {
         return this.each(function () {
             var items = $(this).children();
@@ -84,7 +70,20 @@ function sortgroups(a, b) {
         ) ;
         return arr;
     };
-})(jQuery);
+
+    $("ul.processesDragList").shuffle();
+    $("ul.processesDragList li").draggable({revert: true});
+    $(".processesCellDropItem, .processesDragList").droppable({
+        hoverClass: "processesCellDropItemHover",
+        drop: function (event, ui) {
+            $(ui.draggable).appendTo(this);
+            $(ui.draggable).css("left", "").css("top", "");
+
+            checkCorrection();
+
+        }
+    });
+});
 
 var tran = new Translater({
     lang:"en",
